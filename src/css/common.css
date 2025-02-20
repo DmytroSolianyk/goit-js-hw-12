@@ -38,7 +38,6 @@ input:active {
 }
 
 button {
-  width: 75px;
   border: 0;
   border-radius: 4px;
   padding: 8px 16px;
@@ -68,7 +67,7 @@ button:disabled {
 }
 
 .gallery {
-  margin-top: 15px;
+  margin: 15px 0;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
@@ -165,4 +164,8 @@ button:disabled {
   100% {
     transform: rotate(-360deg);
   }
+}
+
+.hidden {
+  display: none;
 }
